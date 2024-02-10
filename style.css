@@ -1,0 +1,43 @@
+h1,h2,h3,p,ul{
+    margin:0;
+    padding:0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    background-color: blanchedalmond;
+    font-size: 22px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* стилі для хедера */
+.header{
+    background-color: rgb(221, 103, 82);
+    padding: 10px 0;
+}
+.header-cotainer{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.header-img{
+    width: 170px;
+}
+.header-list{
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+    margin-left:50px;
+}
+.header-link:hover, .header-link:focus{
+color: blanchedalmond;
+
+}
+
