@@ -40,4 +40,85 @@ align-items: center;
 color: blanchedalmond;
 
 }
+/* Стилі до головної секції */
+.hero{
+padding-top: 50px;
+padding-bottom: 50px;
 
+}
+.hero-container{
+    display: flex;
+    align-items: center;
+    gap:50px;
+}
+.hero-title{
+   color: rgb(113 , 27, 12);
+    font-size: 48px;
+    font-weight: 700;
+padding-bottom: 50px;
+}
+.hero-text{
+    padding-bottom: 30px;
+}
+/* стилі для інгредіентів для тісиа */
+.dough{
+    background-color: rgb(255, 167, 123);
+    padding-bottom:50px;
+    padding-top:50px;
+}
+.dough-container{
+    display: flex;
+    align-items: center;
+    gap:50px;
+}
+.dough-title{
+    color: rgb(113 , 27, 12);
+    font-size: 33px;
+font-weight: 700;
+padding-bottom:25px;   
+}
+.dough-list{
+    padding-left: 50px;
+    padding-bottom: 25px;
+    list-style: disc;
+}
+/*Стилі до третьої секції  */
+.filling{
+    padding-bottom:50px;
+    padding-top:50px;
+}
+.filling-container{
+    display: flex;
+    align-items: center;
+    gap:50px;
+}
+.filling-title{
+    color: rgb(113 , 27, 12);
+    font-size: 33px;
+font-weight: 700;
+padding-bottom:25px;   
+}
+.filling-list{
+    padding-left: 50px;
+    padding-bottom: 25px;
+    list-style: disc;
+}
+/* стилі для підвалу сайта */
+.footer{
+    background-color: rgb(221, 103, 82);
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-text{
+color: white;
+font-size: 18px;
+}
+.footer-img{
+    width:30px;
+    padding-left:20px;
+}
