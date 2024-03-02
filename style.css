@@ -22,15 +22,20 @@ body{
     background-color: rgb(221, 103, 82);
     padding: 10px 0;
 }
-.header-cotainer{
+.header-container{
 display: flex;
 justify-content: space-between;
 align-items: center;
+
 }
 .header-img{
     width: 170px;
 }
 .header-list{
+    display: flex;
+    gap:30;
+}
+.header-link{
     font-size: 24px;
     color: white;
     font-weight: 700;
@@ -60,6 +65,9 @@ padding-bottom: 50px;
 .hero-text{
     padding-bottom: 30px;
 }
+.hero-img{
+    width: 550px;
+}
 /* стилі для інгредіентів для тісиа */
 .dough{
     background-color: rgb(255, 167, 123);
@@ -84,6 +92,7 @@ padding-bottom:25px;
 }
 /*Стилі до третьої секції  */
 .filling{
+    
     padding-bottom:50px;
     padding-top:50px;
 }
@@ -121,4 +130,35 @@ font-size: 18px;
 .footer-img{
     width:30px;
     padding-left:20px;
+}
+.dough-img{
+    width: 550px;
+}
+.filling-img{
+    width: 550px;
+}
+/* Стилі до 4 секції */
+.facts{
+    background-color: rgb(255, 167, 123);
+    padding-bottom:50px;
+    padding-top:50px;
+}
+.facts-container{
+    display: flex;
+    align-items: center;
+    gap:50px;
+}
+.facts-img{
+    width: 450px;
+    border-radius: 10%;
+}
+.facts-title{
+    color: rgb(113 , 27, 12)  ;
+    font-size: 40px;
+    }
+.facts-list{
+    padding-left: 50px;
+    padding-bottom: 25px;
+    list-style: disc;
+    
 }
