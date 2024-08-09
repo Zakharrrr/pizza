@@ -26,7 +26,6 @@ body{
 display: flex;
 justify-content: space-between;
 align-items: center;
-
 }
 .header-img{
     width: 170px;
@@ -43,13 +42,11 @@ align-items: center;
 }
 .header-link:hover, .header-link:focus{
 color: blanchedalmond;
-
 }
-/* Стилі до головної секції */
+/* стилі до 1 секції */
 .hero{
 padding-top: 50px;
 padding-bottom: 50px;
-
 }
 .hero-container{
     display: flex;
@@ -68,7 +65,7 @@ padding-bottom: 50px;
 .hero-img{
     width: 550px;
 }
-/* стилі для інгредіентів для тіста */
+/* стилі до 2 секції */
 .dough{
     background-color: rgb(255, 167, 123);
     padding-bottom:50px;
@@ -90,12 +87,8 @@ padding-bottom:25px;
     padding-bottom: 25px;
     list-style: disc;
 }
-.dough-img{
-
-}
-/*Стилі до третьої секції  */
-.filling{
-    
+/*стилі до 3 секції  */
+.filling{   
     padding-bottom:50px;
     padding-top:50px;
 }
@@ -115,7 +108,31 @@ padding-bottom:25px;
     padding-bottom: 25px;
     list-style: disc;
 }
-/* стилі для підвалу сайта */
+/* стилі до 4 секції */
+.facts{
+    background-color: rgb(255, 167, 123);
+    padding-bottom:50px;
+    padding-top:50px;
+}
+.facts-container{
+    display: flex;
+    align-items: center;
+    gap:50px;
+}
+.facts-title{
+    color: rgb(113 , 27, 12);
+    font-size: 33px;
+font-weight: 700;
+padding-bottom:25px;   
+}
+.facts-list{
+    padding-left: 20px;
+    list-style: disc;
+}
+.facts-item{
+    padding-bottom: 20px;
+}
+/* стилі для футера*/
 .footer{
     background-color: rgb(221, 103, 82);
     padding-bottom: 30px;
@@ -140,51 +157,4 @@ font-size: 18px;
 .filling-img{
     width: 550px;
 }
-/* Стилі до 4 секції */
-.facts{
-    background-color: rgb(255, 167, 123);
-    padding-bottom:50px;
-    padding-top:50px;
-}
-.facts-container{
-    display: flex;
-    align-items: center;
-    gap:50px;
-}
-.facts-title{
-    color: rgb(113 , 27, 12);
-    font-size: 33px;
-font-weight: 700;
-padding-bottom:25px;   
-}
-.facts-list{
-    padding-left: 20px;
 
-    list-style: disc;
-}
-.facts-item{
-    padding-bottom: 20px;
-}
-
-/*Стилі до третьої секції  */
-.filling{
-    
-    padding-bottom:50px;
-    padding-top:50px;
-}
-.filling-container{
-    display: flex;
-    align-items: center;
-    gap:50px;
-}
-.filling-title{
-    color: rgb(113 , 27, 12);
-    font-size: 33px;
-font-weight: 700;
-padding-bottom:25px;   
-}
-.filling-list{
-    padding-left: 50px;
-    padding-bottom: 25px;
-    list-style: disc;
-}
